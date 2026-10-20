@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="kt.xsd">
+    <offices>
+        <office code="A1">Отдел разработки</office>
+        <office code="B2">Отдел продаж</office>
+        <office code="C3">Бухгалтерия</office>
+    </offices>
+
+    <person id="p001" office="A1">
+        <name>
+            <first>Иван</first>
+            <surname>Иванов</surname>
+        </name>
+        <address>
+            <city>Москва</city>
+            <street>ул. Руднёвка, д. 2</street>
+            <index>110011</index>
+        </address>
+        <phones>
+            <phone type="work">499-54-35</phone>
+            <phone type="home">999-26-76</phone>
+        </phones>
+    </person>
+
+    <person id="p002" office="B2">
+        <name>
+            <first>Пётр</first>
+            <surname>Петров</surname>
+        </name>
+        <address>
+            <index>110011</index>
+            <city>Москва</city>
+            <street>ул. Святоозёрская, д. 3</street>
+        </address>
+        <phones>
+            <phone type="work">543-44-22</phone>
+            <phone type="home">555-67-77</phone>
+        </phones>
+    </person>
+
+    <person id="p003" office="C3">
+        <name>
+            <first>Максим</first>
+            <surname>Максимов</surname>
+        </name>
+        <address>
+            <street>ул. Лухмановская, д. 27</street>
+            <index>110011</index>
+            <city>Москва</city>
+        </address>
+        <phones>
+            <phone type="home">543-65-34</phone>
+            <phone type="work">343-55-66</phone>
+        </phones>
+    </person>
+</notebook>
